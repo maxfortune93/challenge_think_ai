@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,500;1,100;1,200;1,400&family=JetBrains+Mono&family=Poppins:wght@400;600&family=Quintessential&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,700&family=Supermercado+One&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  height: 100vh;
+  /* background-color: rgb(254 243 199); */
+}
+
+.max-width {
+  @apply max-w-[1440px] mx-auto;
+}
+
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+
+.padding-y {
+  @apply py-4;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.hero__image-container {
+  @apply xl:flex-[1.5] flex justify-end items-end w-full xl:h-screen;
+}
+
+.hero__image {
+  @apply relative xl:w-full w-[90%] xl:h-full h-[590px] z-0;
+}
+/* .home__text-container {
+  @apply flex flex-col items-start justify-start gap-y-2.5;
+}
+
+.home__filters {
+  @apply mt-12 w-full flex items-center flex-wrap gap-5;
+}
+
+.home__filter-container {
+  @apply flex justify-start flex-wrap items-center gap-2;
+} */
+
+.car-card {
+  @apply flex flex-col p-6 justify-center items-start bg-white;
+}
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
