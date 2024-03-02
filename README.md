@@ -3,7 +3,7 @@
 
 Cat Lovers is a website created to customize cat images. This platform was developed as part of a challenge proposed by Think AI, an innovative technology company.
 
-# ![alt text](image.png)
+![alt text](catass_front/public/image.png)
 
 ## Challenge instructions
 
